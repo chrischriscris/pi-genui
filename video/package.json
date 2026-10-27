@@ -1,0 +1,22 @@
+{
+	"name": "pi-genui-video",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"record": "bun record/launch.ts",
+		"timeline": "bun scripts/build-timeline.ts",
+		"studio": "remotion studio src/index.ts",
+		"render": "remotion render src/index.ts Launch out/pi-genui-launch.mp4"
+	},
+	"dependencies": {
+		"@remotion/cli": "4.0.539",
+		"react": "^19.3.1",
+		"react-dom": "^19.3.1",
+		"remotion": "4.0.539"
+	},
+	"devDependencies": {
+		"@types/bun": "^1.4.4",
+		"@types/react": "^19.3.0",
+		"typescript": "^7.0.2"
+	}
+}
